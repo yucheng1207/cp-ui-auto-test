@@ -1,2 +1,4 @@
 # cp-ui-auto-test
-Automated testing with cucumber and playwright
+cucumber demo
+
+教程：https://cucumber.io/docs/guides/10-minute-tutorial/?lang=javascript

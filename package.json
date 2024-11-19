@@ -1,0 +1,28 @@
+{
+  "name": "cp-ui-auto-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:login": "cucumber-js --tags='@login'",
+    "test:quick": "cucumber-js --tags='@quick'",
+    "report": "ts-node test/helper/report/report.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yucheng1207/cp-ui-auto-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.1",
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.5",
+    "fs-extra": "^11.1.1",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "playwright": "^1.41.1",
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+/reports/
+/report/
+@rerun.txt
+
+package-lock.json
+
+# 忽略mac 环境隐藏文件
+.DS_Store
+
