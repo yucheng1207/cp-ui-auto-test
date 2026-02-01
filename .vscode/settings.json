@@ -1,0 +1,42 @@
+{
+  "cucumberautocomplete.steps": ["test/steps/**/*.ts", "lib/helper/steps/**/*.ts"],
+  "cucumberautocomplete.syncfeatures": "test/features/**/*.feature",
+  "window.zoomLevel": 0,
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.strictGherkinValidation": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  // todo hight light 配置，养成写注释习惯
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#f3f4f6",
+      "backgroundColor": "#5bc0de",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "FIX:",
+      "color": "#f3f4f6",
+      "backgroundColor": "green",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:",
+      "color": "#f3f4f6",
+      "backgroundColor": "#ee4d38"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "webInfo": {
+    "defaultPageTimeout": 60000,
+    "headless": true,
+    "enableLog": false,
+    "enableTrace": false,
+    "recordVideo": true,
+    "autoScreenshot": false
+  },
+  "mock": {
+    "enable": false,
+    "name": "default"
+  },
+  "users": {
+    "default": {
+      "uid": "zhangyucheng",
+      "password": "123456"
+    }
+  },
+  "pages": {
+    "登录页面": "https:www.baidu.com",
+    "百度首页": "https:www.baidu.com"
+  },
+  "elements": {
+    "百度首页-输入框": "#kw",
+    "百度首页-百度一下按钮": "#su"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["es2021"],
+    "typeRoots": ["./node_modules/@types", "test/env"],
+    "resolveJsonModule": true,
+  },
+  "include": ["lib/**/*", "test/**/*"],
+}

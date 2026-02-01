@@ -1,0 +1,4 @@
+.attachment-object {
+  width: 80vw;
+  height: calc(80vw / 2);
+}

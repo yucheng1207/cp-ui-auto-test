@@ -1,0 +1,13 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+/report/
+/reports/
+@rerun.txt
+@local.txt
+
+.DS_Store
+package-lock.json
+

@@ -1,0 +1,35 @@
+{
+  "submitPayment": {
+    "name": "303",
+    "reg": "submitPayment",
+    "scope": {
+      "features": [
+        {
+          "name": "regular-PC-卡类-新卡",
+          "scenarios": "all"
+        }
+      ]
+    },
+    "response": {
+      "ResponseStatus": {
+        "Timestamp": "/Date(1707049571091+0800)/",
+        "Ack": "Success",
+        "Errors": [],
+        "Extension": [
+          {
+            "Id": "CLOGGING_TRACE_ID",
+            "Value": "4414406783216571074"
+          },
+          {
+            "Id": "RootMessageId",
+            "Value": "100028317-0a06b392-474180-1992"
+          }
+        ]
+      },
+      "head": {
+        "code": 12,
+        "resultSharkKey": ""
+      }
+    }
+  }
+}
